@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập / Đăng kí</title>
+    <link rel="stylesheet" href="/Day9/loginout.css">
+    <link rel="stylesheet" href="/Day1/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <!-- <audio autoplay> -->
+        <!-- <iframe src="https://www.nhaccuatui.com/mh/background/elhFOivCZ6tm" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe> -->
+    <!-- </audio> -->
+        <div class="language">
+            <button class="languagebutton" onclick="changelangu()" id="langu">ENG</button>
+        </div>
+        <div class="container1" id="container1">
+            <div class="text-box boxshadow1">
+                    <h2 id="DN">ĐĂNG NHẬP</h2>
+                    <div class="minibox">
+                        <h3 id="TK">Tài khoản</h3>
+                        <input type="text" name="ten_dang_nhap" placeholder="Tên đăng nhập" id="tai-khoan1">
+                    </div>
+                    <div class="minibox">
+                        <h3 id="MK">Mật khẩu</h3>
+                        <input type="password" name="nhapmatkhau"  placeholder="Mật khẩu" id="nhapmatkhau">
+                    </div>
+                    <button class="button" id="DN2" onclick="dangnhap()">Đăng nhập</button>
+                    <p id="(*)1" class="warning" onclick="textbox2()">(*) Chưa có tài khoản?</p>
+                </div>  
+            <div class="text-box text-box2 boxshadow1">
+                    <h2 id="DK">ĐĂNG KÍ</h2>
+                    <div class="minibox" id="minibox3">
+                        <h3 id="NAME">Họ và tên</h3>
+                        <input type="text" name="ho_va_ten" id="NAME1" placeholder="Họ và tên đầy đủ của bạn">
+                    </div>
+                    <div class="minibox" id="minibox4">
+                        <h3 id="TK2">Tài khoản</h3>
+                        <input type="text" name="ten_dang_nhap" id="tai-khoan" placeholder="Tên đăng nhập">
+                    </div>
+                    <div class="minibox" id="minibox5">
+                        <h3 id="MK2">Mật khẩu</h3>
+                        <input type="password" name="mk" id="mk" placeholder="Mật khẩu">
+                    </div>
+                    <div class="minibox" id="minibox6">
+                        <h3 id="NLMK">Nhập lại mật khẩu</h3>
+                        <input type="password" name="reset_mk" placeholder="Nhập lại mật khẩu" id="rmk">
+                    </div>
+                    <button class="button" id="DK2" onclick="dangki()">Đăng kí</button>
+                    <p id="(*)2" class="warning" onclick="textbox1()">(*)Đã có tài khoản?</p>
+            </div>
+        </div>
+        <div class="mangluoi">
+            <div class="text-box mangluoi1" id="mangluoi1a" onclick="textbox1()"></div>
+            <div class="text-box text-box2 mangluoi1" id="mangluoi2a" onclick="textbox2()"></div>
+        </div>
+</body>
+<script src="/Day9/loginout.js"></script>
+</html>

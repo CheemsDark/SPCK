@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container1{
+    transition: 1s;
+    background-image: url('https://coolwallpapers.me/picsup/6015545-art-stars-sun-atmosphere-space-earth.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 836px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-box{
+    padding-top: 20px;
+    height: 52%;
+    width: 30%;
+    background-color: rgba(240, 255, 255, 0.6);
+    border-radius: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow:  6px 4px 6px 6px rgba(84, 189, 235, 0.974); */
+}
+
+.boxshadow1{
+    box-shadow: 4px 4px 0px 3px rgba(0,2,2,0.3);
+}
+
+.text-box .minibox{
+    margin-left:-38px;
+    margin-top: -20px;
+}
+
+.text-box2{
+    height: 74%;
+    /* color: rgba(0,0,0,0.7); */
+}
+
+.button{
+    height: 37px;
+    width: 320px;
+    margin-top: -20px;
+    background-color: rgba(98, 181, 230,0.5);
+    color: aliceblue;
+    border-radius: 2%;
+}
+
+.button:hover{
+    background-color: rgb(127, 255, 212,0.6);
+    color: cadetblue;
+    transition: 0.6s;
+}
+
+.minibox>input{
+    border: none;
+    border-bottom: 2px solid rgb(76, 205, 238);
+    width: 280px;
+    height: 33px;
+    /* background-color: rgba(141, 195, 221, 0.8); */
+    background-color: transparent;
+}
+
+p{
+    font-style: italic;
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position:absolute;
+}
+
+.languagebutton{
+    color: aliceblue;
+    background-color: rgba(254, 226, 197, 0.225);
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.warning{
+    color: yellow;
+    cursor: pointer;
+}
+
+.warning:hover{
+    color: red;
+}
+
+#langu{
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+#langu:hover{
+    background-color: rgb(204, 179, 146,0.5);
+    transition: 0.5s;
+}
+
+/* Mangluoi */
+
+.mangluoi{
+    display: flex;
+    width: 100%;
+    height: 836px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -836px;
+    transition: 1s;
+}
+
+.mangluoi1{
+    background-color: rgba(0,0,0,0.7);
+    transition: 1s;
+}
+
+.warn{
+    color: red;
+}
+
+
